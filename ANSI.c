@@ -33,7 +33,7 @@
 #define _WIN32 0
 typedef enum handle { NO, YES } HANDLE;
 typedef enum dword { ENABLE_VIRTUAL_TERMINAL_PROCESSING, STD_OUTPUT_HANDLE } DWORD;
-int GetStdHandle( DWORD lol ) { return NO; }
+HANDLE GetStdHandle( DWORD lol ) { return NO; }
 void GetConsoleMode( HANDLE yah, DWORD * nah ) { return; }
 void SetConsoleMode( HANDLE what, DWORD where ) { return; } 
 
