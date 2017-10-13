@@ -40,7 +40,8 @@ void SetConsoleMode( HANDLE what, DWORD where ) { return; }
 #endif
 
 int main(void) {
-	
+
+	// Lines 44 - 50 go in your main function.
 	if (_WIN32) {
 		HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
 		DWORD dwMode = 0;
