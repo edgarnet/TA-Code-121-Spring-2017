@@ -11,7 +11,7 @@
 
 // Lines 14-20 go in your main function.
 int main(void) {
-  if (_WIN32) {
+	if (_WIN32) {
 		HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
 		DWORD dwMode = 0;
 		GetConsoleMode(hOut, &dwMode);
