@@ -1,4 +1,4 @@
-//This goes in your header file.
+// This goes in your header file.
 #include	<stdio.h>
 #define		CLS		"\033[2J\033[1;1H"
 
