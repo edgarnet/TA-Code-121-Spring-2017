@@ -16,11 +16,11 @@
  * =====================================================================================
  */
 
-
-// This stays in main.
+// This goes in your header file.
 #include	<stdio.h>
 #define		CLS		"\033[2J\033[1;1H"
 
+// This stays in main.
 #ifdef _WIN32
 
 #include	<windows.h>
