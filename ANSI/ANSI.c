@@ -17,7 +17,7 @@
  */
 
 
-// This goes in your header file.
+// This stays in main.
 #include	<stdio.h>
 #define		CLS		"\033[2J\033[1;1H"
 
