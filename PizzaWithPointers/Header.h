@@ -11,7 +11,7 @@
 #define _HEADER_H
 
 #include	<stdio.h>
-#include	<stdlib.h>F
+#include	<stdlib.h>
 
 // Determines the toppings of the pizza the user wants.
 // Stores the choice in an integer pointer.
